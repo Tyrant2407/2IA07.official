@@ -1,0 +1,68 @@
+#judul {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home {
+    float: right;
+    text-decoration: none;
+    font-size: 50px;
+    border: 1px solid rgb(133, 36, 36);
+    background-color: black;
+    border-radius: 10%;
+}
+.navbar {
+    background: linear-gradient(#af0e54, #ffffff); 
+    height: 100px;
+    font-size: 90px;
+    font-weight: bold;
+}
+input[type=text],
+input[type=date] {
+    font-family: Raleway, sans-serif;
+    background: #F5F1FF;
+    border: 2px solid #9475EA;
+    border-radius: 8px;
+    padding: 16px;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+input[type=text],
+input[type=date] {
+    font-family: Raleway, sans-serif;
+    background: #F5F1FF;
+    border: 2px solid #9475EA;
+    border-radius: 8px;
+    padding: 16px;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.btn-submit {
+    float: right;
+    width: fit-content;
+    font-family: Raleway, sans-serif;
+    border-radius: 16px;
+    padding: 12px 24px;
+    border: 2px solid #5F30E2;
+    color: black;
+    font-size: 24px;
+    margin-top: auto;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background: #5F30E2;
+    color: white;
+}
+
+input[type=text],
+input[type=date],
+.btn-submit:focus {
+    outline: none;
+}

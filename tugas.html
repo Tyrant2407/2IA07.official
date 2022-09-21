@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2IA07</title>
+
+  <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="tugas.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <h1 class="navbar-brand" style="font-size: 30px;color:black"><a href="#"></a></h1>
+      <a href="index.html" style="--i: 0.05s;" id="home">Home</a>
+    </div>
+  </nav>
+
+  <div class="container my-5">
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-lg-8">
+
+        <!-- Input To-Do-List -->
+        <div class="card mb-4">
+          <div class="card-header" id="judul">
+            <h5 class="card-titler">Daftar Tugas Kuliah</h5>
+          </div>
+          <div class="card-body">
+            <form class="mb-3">
+              <label for="inputData" class="form-label">Masukkan Data:</label>
+              <input type="text" class="form-control" id="inputData" aria-describedby="infoInputData" placeholder="Nama Item" required>
+              <div id="infoInputData" class="form-text">Ketikkan dan tekan Enter.</div>
+            </br>
+              <label for="date">Masukkan tanggal harus selesai</label>
+              <input type="date" class="form-control" id="date" name="date" required>
+
+        </br>
+              <input type="submit" value="Submit" name="Submit" class="btn-submit">
+            </form>
+          </div>
+        </div>
+
+        <!-- Daftar To-Do-List -->
+        <div class="card mb-4">
+          <div class="card-header">
+            <h5 class="card-title">Tugas Kuliah</h5>
+          </div>
+          <div class="card-body">
+            <div class="mb-3">
+              <ul>
+                
+              </ul>
+            </div>
+            
+          </div>
+          <div class="card-footer">
+            <div class="text-right">
+              <button class="btn btn-danger">Hapus Semua</button>
+            </div>
+          </div>
+
+          <h3>cara membaca: </h3>
+          <h3>Atas : nama matkul</h3>
+          <h3>Bawah: batas Akhir</h3>
+          
+        </div>
+
+    </div>
+
+    <script src="tugas.js"></script>
+</body>
+</html>
